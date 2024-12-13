@@ -23,7 +23,7 @@
                 <h2 class="contact-form__heading">Contact</h2>
             </div>
 
-            <form class="contact-form" action="/confirm.html" method="post">
+            <form class="contact-form" action="/confirm" method="post">
                 @csrf
                 <div class="inputs">
                     <label class="label">お名前<span>※</span></label>

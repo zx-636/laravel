@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function index()
+    public function create()
         {
-            return view('index');
+            return view('contact.create');
         }
 
         public function confirm(Request $request)

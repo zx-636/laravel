@@ -18,7 +18,8 @@ use App\Http\Controllers\AdminController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [ContactController::class, 'index']);
+Route::get('/', [ContactController::class, 'create']);
 Route::post('/confirm', [ContactController::class, 'confirm']);
 Route::post('/thanks', [ContactController::class, 'store']);
 Route::get('/admin', [AdminController::class, 'admin']);
+Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
