@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    /* margin-top: 30px; */
+}
+
+.header {
+    background-color: #fff;
+    /* border: solid 1px #ddd; */
+    /* max-width: 1230px; */
+    padding: 0px 0px 10px 0px;
+}
+
+.header__inner {
+    position: relative;
+}
+
+.header__logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* .header__btn {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+input[type="submit"] {
+    background: #ddd;
+    padding: 5px 20px;
+    border: solid 1px #ddd;
+    font-size: 15px;
+    cursor: pointer;
+} */
+
+  /* main */
+main {
+    /* max-width: 1230px; */
+    /* border: 1px solid #ddd; */
+    padding-bottom: 20px;
+}
+
+.confirm__content {
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    font-size: 12px;
+}
+
+table {
+    margin: 0 auto;
+    /* max-width: 1230px; */
+    width: 60%;
+    font-size: 12px;
+    border-collapse: collapse;
+    border:  1px solid #ddd;
+}
+
+th, td {
+    /* padding: 10px 30px; */
+    text-align: justify;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+th {
+    color: #fff;
+    background-color: rgb(214, 191, 162);
+}
+
+.btn-area{
+    margin-top: 30px;
+	text-align: center;
+}
+
+.form-submit__btn {
+    background: #88785d;
+    color: #fff;
+	border: none;
+	font-size:12px;
+	padding: 5px 30px;
+	margin: 0 10px;
+    cursor: pointer;
+}
+
+.form-submit__btn--reset {
+    background-color: #fff;
+    text-decoration: underline;
+	border: none;
+	font-size:15px;
+	padding: 5px 30px;
+	margin: 0 10px;
+    cursor: pointer;
+}

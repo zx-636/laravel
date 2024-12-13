@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    /* margin-top: 30px; */
+    /* padding: 300px 50px; */
+    /* text-align: center; */
+    /* border: 1px solid #ddd; */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks-text {
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 0.05;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.btn-area {
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-submit__btn {
+    background: #88785d;
+    color: #fff;
+	border: none;
+	font-size:12px;
+	padding: 5px 30px;
+	margin: 0 10px;
+    cursor: pointer;
+}
